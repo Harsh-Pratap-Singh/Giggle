@@ -46,7 +46,7 @@ For verbose output:
 go test -v ./pagerank
 ```
 
-## 5. Run the CLI demo
+## 5. Run the CLI 
 
 ```bash
 go run ./cmd/cli
