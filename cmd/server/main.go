@@ -117,7 +117,7 @@ func main() {
 		ReadHeaderTimeout: 5 * time.Second,
 	}
 
-	log.Printf("PageRank service listening on %s", *addr)
+	log.Printf("PageRank service listening on -> %s", *addr)
 	if err := srv.ListenAndServe(); err != nil {
 		log.Fatal(err)
 	}
